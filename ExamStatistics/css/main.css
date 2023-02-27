@@ -1,0 +1,55 @@
+h1{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.statistics{
+    /* background-image: url(../assets/istockphoto-1391222993-170667a.jpg); */
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding:20px
+}
+h2{
+    color: white;
+}
+.totalStudents{
+    color:white
+}
+.inputForm{
+    background-color: lightgrey;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        padding: 20px;
+}
+.subjects{
+    height: 100px;
+}
+.button {
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+    color: lightseagreen;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+.information{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ul:before {
+    content: attr(aria-label);
+    font-size: 20px;
+    margin-left: -15px;
+}
+.failedList{
+    color:red
+}

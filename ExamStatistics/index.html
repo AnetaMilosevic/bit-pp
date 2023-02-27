@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <h1>Exam statistics</h1>
+    <br />
+    <div class="statistics">
+      <h2>Exam statistic June</h2>
+      <p class="totalStudents">Total students: <span class="counter"></span></p>
+      <div class="passed">
+        <p>PASSED <span class="passedCounter"></span></p>
+      </div>
+      <div class="failed">
+        <p>FAILED <span class="failedCounter"></span></p>
+      </div>
+    </div>
+    <div class="inputForm">
+      <!-- <form action="/"> -->
+      <select class="subject" name="subjects">
+        <option value="Math">Maths</option>
+        <option value="History">History</option>
+        <option value="Science">Science</option>
+        <option value="Geography">Geography</option>
+        <option value="Music">Music</option>
+        <option value="Art">Art</option>
+      </select>
+      <input
+        class="nameSurname"
+        type="text"
+        id="name"
+        placeholder="Name surname"
+      />
+      <input class="grade" type="number" placeholder="Grade" />
+      <input class="button" type="submit" value="ADD" />
+      <!-- </form> -->
+    </div>
+    <div class="information">
+      <ul class="passedList" aria-label="PASSED">
+        <li>bbbbbbbbbb</li>
+      </ul>
+      <ul class="failedList" aria-label="FAILED">
+        <li>nnnnnnnnnnnnn</li>
+      </ul>
+    </div>
+    <script src="./JS/1subject.js"></script>
+    <script src="./JS/2student.js"></script>
+    <script src="./JS/3exam.js"></script>
+    <script src="./JS/4form.js"></script>
+    <script src="./JS/5app.js"></script>
+  </body>
+</html>
